@@ -26,7 +26,7 @@ The website is made using standard HTML, JavaScript, and CSS. The API is made us
 3. Change directory to `server`.
 4. Initate npm using `npm init -y`.
 5. Install dependencies using `npm install express csv-parser geolib`.
-6. Change endpoints in api.js to your localhost IP instead of deployment /api/ deployment.
+6. Change endpoints in api.js to your localhost IP instead of deployment /api/ address.
 
 ### How to run the API:
 1. Run `node server-local.js`.
