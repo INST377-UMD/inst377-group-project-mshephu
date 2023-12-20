@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["server/**/*.csv"]
+      }
+    },
+    {
+      "src": "website/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "server/server.js"
+    },
+    {
+      "src": "/(favicon.ico|css|imgs|js)/(.*)",
+      "dest": "website/$1/$2"
+    },
+    {
+      "src": "/(about|api|resources|statistics).html",
+      "dest": "website/$1.html"
+    },
+    {
+      "src": "/",
+      "dest": "website/index.html"
+    }
+  ]
+}
+
