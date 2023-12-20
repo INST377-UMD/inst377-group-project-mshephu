@@ -28,7 +28,7 @@ The website is made using standard HTML, JavaScript, and CSS. The API is made us
 5. Install dependencies using `npm install express csv-parser geolib`.
 
 ### How to run the API:
-1. Run `node server.js`.
+1. Run `node server-local.js`.
 
 ### How to run tests
 1. Ensure developer dependencies: `npm install --save-dev mocha chai supertest.`
