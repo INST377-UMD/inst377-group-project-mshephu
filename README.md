@@ -10,6 +10,8 @@ The website consist of various resources for finding information regarding COVID
 
 The API is a tool used to find vaccine locations using various parameters.
 
+Added Deployment Link if Needed: https://final-vercel-deploy-sooty.vercel.app/
+
 [Link to User Manual...](docs/USER_MANUAL.md)
 [Link to Developer Manual...](docs/DEVELOPER_MANUAL)
 
