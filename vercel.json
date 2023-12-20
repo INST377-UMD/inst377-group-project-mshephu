@@ -23,7 +23,7 @@
       "dest": "website/$1/$2"
     },
     {
-      "src": "/(about|api|resources|statistics).html",
+      "src": "/(about|api|resources|statistics|index).html",
       "dest": "website/$1.html"
     },
     {
